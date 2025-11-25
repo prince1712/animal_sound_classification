@@ -1,0 +1,183 @@
+/* 🌸 ========== GLOBAL APP STYLING ========== */
+.stApp {
+    background: linear-gradient(135deg, #F3E5F5 0%, #E8EAF6 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #2E1A47;
+}
+
+/* 🌈 Divider line */
+.divider {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #A18CD1, #FBC2EB);
+    margin: 20px 0;
+}
+
+/* 🪶 Headings */
+h1, h2, h3, h4 {
+    color: #4A148C;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* ========== SIDEBAR ========== */
+[data-testid="stSidebar"] {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-right: 3px solid #D1B2E0;
+    box-shadow: 4px 0 20px rgba(155, 89, 182, 0.1);
+}
+[data-testid="stSidebar"] * {
+    color: #4A148C !important;
+    font-family: 'Poppins', sans-serif;
+}
+.stSidebar img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* 🌼 Sidebar option menu */
+.css-1d391kg, .css-1v3fvcr {
+    background: transparent !important;
+}
+
+/* ========== HEADER SECTION ========== */
+.app-header {
+    text-align: left;
+    padding: 10px 0;
+}
+.app-header h1 {
+    font-size: 2.4rem;
+    color: #4A148C;
+    font-weight: 800;
+}
+.app-header h4 {
+    color: #6A1B9A;
+    font-weight: 500;
+}
+
+/* ========== DASHBOARD CARDS ========== */
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 20px;
+}
+
+.dashboard-card {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(161, 140, 209, 0.2);
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(161, 140, 209, 0.4);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.dashboard-card h3 {
+    color: #6A1B9A;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+}
+
+.dashboard-card h2 {
+    color: #4A148C;
+    font-size: 2rem;
+}
+
+/* ========== SECTIONS AND PARAGRAPHS ========== */
+.section-title {
+    color: #4A148C;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px 0;
+    box-shadow: 0 5px 18px rgba(161, 140, 209, 0.2);
+}
+
+/* ========== RESULT CARD ========== */
+.result-card {
+    background: linear-gradient(135deg, #E1BEE7, #D1C4E9);
+    color: #2E1A47;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(161, 140, 209, 0.3);
+    margin-top: 25px;
+}
+.result-card h2 {
+    color: #4A148C;
+    font-size: 2rem;
+}
+.result-card p {
+    color: #311B92;
+    font-weight: 500;
+}
+
+/* ========== BUTTONS ========== */
+div.stButton > button {
+    background: linear-gradient(90deg, #A18CD1, #FBC2EB);
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 0.7em 1.3em;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(161, 140, 209, 0.4);
+}
+div.stButton > button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(161, 140, 209, 0.6);
+}
+
+/* ========== INFO / ALERT BOXES ========== */
+.stAlert {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-left: 6px solid #BA68C8;
+    border-radius: 12px;
+    color: #4A148C !important;
+    box-shadow: 0px 4px 8px rgba(155, 89, 182, 0.15);
+    padding: 10px;
+}
+
+/* ========== UPLOADER ========== */
+.stFileUploader {
+    background: rgba(255, 255, 255, 0.7);
+    border: 2px dashed #CE93D8;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/* ========== FOOTER ========== */
+.footer-text {
+    text-align: center;
+    color: #7E57C2;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+/* ========== SCROLLBAR ========== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #B39DDB;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #9575CD;
+}
